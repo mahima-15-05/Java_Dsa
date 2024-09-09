@@ -1,0 +1,189 @@
+1. Factorial of a Number
+Write a function that takes a number n and returns the factorial of n using recursion.
+Example:
+Input: n = 5
+Output: 120
+5
+!
+=
+5
+×
+4
+×
+3
+×
+2
+×
+1
+=
+120
+5!=5×4×3×2×1=120
+.................................................................................................................
+
+2. Fibonacci Series
+Write a recursive function to find the nth Fibonacci number.
+Example:
+Input: n = 5
+Output: 5
+The Fibonacci sequence is: 0, 1, 1, 2, 3, 5...
+
+Sum of Digits
+Write a recursive function to calculate the sum of digits of a given number.
+Example:
+Input: n = 1234
+Output: 10
+Explanation:
+1
++
+2
++
+3
++
+4
+=
+10
+1+2+3+4=10
+.....................................................................................................
+3. Reverse a String
+Write a recursive function to reverse a given string.
+Example:
+Input: s = "hello"
+Output: "olleh"
+
+Power Calculation
+Write a recursive function to calculate x^n (x raised to the power of n).
+Example:
+Input: x = 2, n = 5
+Output: 32
+2
+5
+=
+32
+2
+5
+ =32
+......................................................................................................................
+......................................................................................................................
+Intermediate Level:
+
+1. Tower of Hanoi
+Write a recursive function to solve the Tower of Hanoi problem for n disks.
+Example:
+Input: n = 3
+Output:
+
+css
+Copy code
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+Check if a String is a Palindrome
+Write a recursive function to check if a string is a palindrome.
+Example:
+Input: "racecar"
+Output: true
+.................................................................................................................
+
+2. Binary Search using Recursion
+Implement binary search recursively. Given a sorted array and a target value, return the index of the target if found, otherwise return -1.
+Example:
+Input: arr = [1, 2, 3, 4, 5, 6], target = 4
+Output: 3
+
+..................................................................................................................
+
+3. Sum of Array Elements
+Write a recursive function to find the sum of elements in an array.
+Example:
+Input: arr = [1, 2, 3, 4, 5]
+Output: 15
+
+..................................................................................................................
+
+4. Permutations of a String
+Write a recursive function to generate all permutations of a given string.
+Example:
+Input: "abc"
+Output:
+
+Copy code
+abc
+acb
+bac
+bca
+cab
+cba
+
+....................................................................................................................
+....................................................................................................................
+
+Advanced Level:
+1. N-Queens Problem
+Solve the N-Queens problem using recursion. The goal is to place N queens on an N x N chessboard so that no two queens attack each other.
+Example:
+Input: N = 4
+Output:
+
+less
+Copy code
+Solution 1:
+.Q..
+...Q
+Q...
+..Q.
+
+Solution 2:
+..Q.
+Q...
+...Q
+.Q..
+
+...................................................................................................................
+2. Find All Subsequences of a String
+Write a recursive function to find all subsequences of a given string.
+Example:
+Input: "abc"
+Output:
+arduino
+Copy code
+"", "a", "b", "c", "ab", "ac", "bc", "abc"
+
+............................................................................................................................
+3. Subset Sum Problem
+Given a set of integers and a target sum, write a recursive function to find if there is a subset of the given set with a sum equal to the target.
+Example:
+Input: arr = [3, 34, 4, 12, 5, 2], sum = 9
+Output: true
+
+4. Sudoku Solver
+Write a recursive function to solve a Sudoku puzzle.
+Input: A partially filled 9x9 grid of integers.
+Output: The solved 9x9 grid.
+
+................................................................................................................
+................................................................................................................
+
+5. Word Search (Leetcode Problem)
+Given a 2D board and a word, find if the word exists in the grid using recursion.
+Example:
+Input:
+
+css
+Copy code
+board = [  ['A', 'B', 'C', 'E'],
+  ['S', 'F', 'C', 'S'],
+  ['A', 'D', 'E', 'E']
+]
+word = "ABCCED"
+Output: true
+
+Tips for Recursive Problem Solving:
+Base Case: Always define the simplest case that can be solved without further recursion.
+Recursive Case: Define how the problem can be broken down into simpler subproblems.
+Avoid Infinite Recursion: Ensure that the recursive case always moves towards the base case.
+Memoization (optional for optimization): Store results of already computed subproblems to avoid redundant computations.
+Start with the beginner-level problems to get comfortable with the concept of recursion, and gradually move to intermediate and advanced problems.
